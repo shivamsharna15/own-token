@@ -3,14 +3,15 @@
 The MyToken smart contract is an ERC20-like token implementation written in Solidity. It allows users to create, transfer, mint, and burn tokens. The contract is designed to manage a simple token economy with features such as airdrops and allowances for delegated transfers.
 
 **Features**
-Token Name: BRAHMAN
-Token Abbreviation: BMN
-Total Supply: 50,000 tokens (initially assigned to the contract creator)
-Minting: Allows the creation of new tokens and assignment to specified addresses.
-Burning: Enables users to destroy their tokens, reducing the total supply.
-Transfer: Users can transfer tokens to other addresses.
-Airdrop: Distribute tokens to multiple addresses in a single transaction.
-Allowance: Users can approve others to spend a specified amount of their tokens.
+
+**Token Name:** BRAHMAN
+**Token Abbreviation:** BMN
+**Total Supply:** 50,000 tokens (initially assigned to the contract creator)
+**Minting:** Allows the creation of new tokens and assignment to specified addresses.
+**Burning:** Enables users to destroy their tokens, reducing the total supply.
+**Transfer:** Users can transfer tokens to other addresses.
+**Airdrop:** Distribute tokens to multiple addresses in a single transaction.
+**Allowance:** Users can approve others to spend a specified amount of their tokens.
 **Contract Functions**
 1. Constructor
 constructor(): Initializes the token with a name, abbreviation, and total supply. Assigns the initial supply to the contract creator.

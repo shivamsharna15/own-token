@@ -1,8 +1,8 @@
-MyToken Smart Contract
-Overview
+**MyToken Smart Contract**
+**Overview**
 The MyToken smart contract is an ERC20-like token implementation written in Solidity. It allows users to create, transfer, mint, and burn tokens. The contract is designed to manage a simple token economy with features such as airdrops and allowances for delegated transfers.
 
-Features
+**Features**
 Token Name: BRAHMAN
 Token Abbreviation: BMN
 Total Supply: 50,000 tokens (initially assigned to the contract creator)
@@ -11,7 +11,7 @@ Burning: Enables users to destroy their tokens, reducing the total supply.
 Transfer: Users can transfer tokens to other addresses.
 Airdrop: Distribute tokens to multiple addresses in a single transaction.
 Allowance: Users can approve others to spend a specified amount of their tokens.
-Contract Functions
+**Contract Functions**
 1. Constructor
 constructor(): Initializes the token with a name, abbreviation, and total supply. Assigns the initial supply to the contract creator.
 2. Minting
@@ -29,17 +29,17 @@ transferFrom(address _from, address _to, uint _value): Allows a spender to trans
 8. Balance and Allowance Queries
 balanceOf(address _owner): Returns the token balance of the specified address.
 allowance(address _owner, address _spender): Returns the remaining number of tokens that a spender is allowed to spend on behalf of the owner.
-Events
+**Events**
 Transfer(address indexed from, address indexed to, uint value): Emitted when tokens are transferred.
 Approval(address indexed owner, address indexed spender, uint value): Emitted when an approval is made.
 Mint(address indexed to, uint value): Emitted when new tokens are minted.
 Burn(address indexed from, uint value): Emitted when tokens are burned.
-Usage
+**Usage**
 Deploy the Contract: Deploy the MyToken contract on an Ethereum-compatible blockchain.
 Mint Tokens: Use the mint function to create new tokens for specific addresses.
 Transfer Tokens: Call the transfer function to send tokens to other users.
 Burn Tokens: Users can call the burn function to reduce their token balance.
 Airdrop Tokens: Use the airdrop function to distribute tokens to multiple addresses at once.
 Check Balances and Allowances: Use balanceOf and allowance functions to check token balances and allowances.
-License
+**License**
 This contract is licensed under the MIT License.
